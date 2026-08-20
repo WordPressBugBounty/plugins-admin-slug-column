@@ -3,8 +3,9 @@ Contributors: ryno267
 Donate link: https://buymeacoffee.com/chuck
 Tags: slug, admin columns, permalink, url path, page titles
 Requires at least: 5.2
-Tested up to: 6.9.1
-Stable tag: 2.0.0
+Tested up to: 7.1
+Requires PHP: 7.4
+Stable tag: 2.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -28,6 +29,20 @@ Do you have a feature you'd like or a bug you've found? Feel free to [make an is
 == Screenshots ==
 
 == Changelog ==
+= 2.0.2 =
+
+Release Date - 2026-08-19
+
+* Lowered the PHP requirement from 8.0 to 7.4. Nothing in the plugin needed PHP 8: it uses return type declarations and typed parameters, which are PHP 7.0+. The 8.0 floor was blocking installs for no technical reason.
+* Added the Requires PHP header to readme.txt so WordPress.org shows it on the plugin page.
+
+= 2.0.1 =
+
+Release Date - 2026-08-19
+
+* Tested up to WordPress 7.1
+* No functional changes. Verified on 7.1 across posts, pages, custom post types, drafts, and the Quick Edit inline-save path.
+
 = 2.0.0 =
 
 Release Date - 2026-03-09
